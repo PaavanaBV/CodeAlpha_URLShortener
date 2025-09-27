@@ -1,0 +1,24 @@
+"LINK SQUEEZER" – A SIMPLE URL SHORTENER WEB APPLICATION
+
+ 
+This project is a "Link Squeezer" – a simple URL shortener web application. It allows users to input a long URL and then generates a much shorter version of that URL using a public shortening service (in this case, TinyURL).
+Here's a breakdown of what's happening, with references to the provided images:
+The first image shows the main interface of the "Link Squeezer" application. It has a dark, modern design.
+There's a prominent title "Link Squeezer" and a subtitle "Shorten your long links with ease."
+An input field is visible, partially filled with the extremely long example URL we discussed: https://www.example.com/very/long/p. This is where the user pastes their long URL.
+Next to the input field is a "Shorten" button.
+Below, a message "Shortened URL created!" appears, along with the generated short URL (e.g., https://tinyurl.com/2bmg4a2m) and a "Copy" button. This indicates a successful shortening operation.
+The browser's address bar clearly shows the full, very long URL: example.com/very/long/path/for/testing/the/limits/of/a/url/shortener/system/by/using/excessive/subdirectory/levels/and/padding/with/many/random/characters/.
+The content of the page is a standard "Example Domain" message, indicating that this domain is reserved for illustrative examples and doesn't host actual content. This confirms that the long URL is indeed functional for demonstration purposes, even if it doesn't lead to a complex webpage.
+Image 3 illustrates an intermediate step when a user clicks on the shortened URL (e.g., https://tinyurl.com/2bmg4a2m).
+The browser's address bar now shows tinyurl.com/preview/..., indicating that TinyURL is handling the redirection.
+The page displays a "Preview" screen, showing a rotating icon and the original long URL (truncated to fit) at the bottom.
+A button "Continue to Your Destination" is present, along with a countdown: "We'll automatically redirect you in 8 seconds...". This is a common feature of URL shorteners to prevent abuse and sometimes to display ads, before redirecting to the actual destination.
+In essence, the project flow demonstrated by these images is:
+1.	A user takes a very long URL (like the one shown in Images 2 and 4).
+2.	They paste it into the "Link Squeezer" application (Image 1, input field).
+3.	The application processes it via the TinyURL API.
+4.	A short URL is generated and displayed (Image 1, result section).
+5.	When a user opens this short URL, they are first taken to a TinyURL preview page (Image 3).
+6.	After a short delay or by clicking "Continue," they are then redirected to the original long URL's destination (as seen in Images 2 and 4).
+
